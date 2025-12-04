@@ -1,0 +1,45 @@
+[2025-12-04 00:42:38] GET ::1
+[2025-12-04 00:42:51] POST ::1
+Dados recebidos: {"data":[{"atendente":"Vinicius","produto":"Impressão - folha offset 75g","valor":"31.00","transacao":"Cartão Crédito"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-04 00:51:25] GET ::1
+[2025-12-04 00:51:35] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"Impressão - folha offset 75g","valor":"584.13","transacao":"Pix"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-04 00:55:46] GET ::1
+[2025-12-04 00:55:57] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"Impressão - folha offset 75g","valor":"584.13","transacao":"Cartão Crédito"}]}
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-04 00:56:50] GET ::1
+[2025-12-04 00:56:58] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"Impressão - folha offset 75g","valor":"584.13","transacao":"Cartão Débito"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-04 00:58:41] GET ::1
+[2025-12-04 01:00:24] GET ::1
+[2025-12-04 01:00:41] GET ::1
+[2025-12-04 01:00:51] GET ::1
+[2025-12-04 01:03:57] GET ::1
+[2025-12-04 01:05:02] GET ::1
+[2025-12-04 01:06:00] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"Impressão - folha offset 75g","valor":"584.13","transacao":"Dinheiro"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-04 01:36:23] GET ::1
+[2025-12-04 01:36:49] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"Impressão - folha offset 75g","valor":"584.13","transacao":"Cartão Débito"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-04 02:54:25] GET ::1
+[2025-12-04 02:55:02] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"20 IMPRESSÕES","valor":"34.00","transacao":"Dinheiro"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
