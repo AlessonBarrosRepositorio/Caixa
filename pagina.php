@@ -407,8 +407,7 @@ $_SESSION['ultimo_acesso'] = time();
                     
                     if (result.status === 'sucesso' || result.created === 1) {
                         showAlert('✅ Venda registrada com sucesso!', 'success');
-                        form.reset();
-                        html.reset();
+                        form.reset();                        
                         
                         // Feedback visual
                         enviarBtn.innerHTML = '<i class="fas fa-check"></i> Registrado!';
@@ -421,7 +420,6 @@ $_SESSION['ultimo_acesso'] = time();
                         // Se não tiver status conhecido, mas parece bem-sucedido
                         showAlert('✅ Dados enviados!', 'success');
                         form.reset();
-                        html.reset();
                     }
                 } catch (error) {/*
                     console.error('Erro completo:', error);

@@ -49,3 +49,9 @@ Dados recebidos: {"data":[{"atendente":"Vinicius","produto":"Impressão - folha 
 Resposta HTTP: 400
 Resposta: 
 ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
+[2025-12-05 15:46:31] GET ::1
+[2025-12-05 15:46:48] POST ::1
+Dados recebidos: {"data":[{"atendente":"Alesson","produto":"teste","valor":"11.11","transacao":"Pix"}]}
+Resposta HTTP: 400
+Resposta: 
+ERRO: Erro no CURL: HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)
